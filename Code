@@ -1,0 +1,4 @@
+from moviepy.editor import *
+
+convert_video_name = VideoFileClip("Python.mp4")
+convert_video_name.write_gif("ps_gif1.gif")
